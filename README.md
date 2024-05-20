@@ -46,3 +46,7 @@ extension=php_pdo_sqlsrv_82_ts_x64.dll
 
 https://chatgpt.com/share/031ccab2-36f3-477a-9fd1-2b2e8ebd9bd7
 
+
+https://www.youtube.com/watch?v=K8MJtUmo8nk
+
+inicio / final
