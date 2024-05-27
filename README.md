@@ -15,28 +15,20 @@ extension=php_pdo_sqlsrv_82_ts_x64.dll
 ===============
 ## conexion.php
     <?php
+    $serverName = "localhost"; // Nombre del servidor o IP
+    $connectionOptions = array(
+    "Database" => "pcgerente",
+    "Uid" => "sa",
+    "PWD" => "Administrador77"
+    );
 
-    class Cconexion{
-
-    function ConexionBD(){
-
-    $host='localhost';
-    $dbname='dbprueba';
-    $username='sserver';
-    $password ='root';
-    $puerto=1433;
-
-    try{
-    $conn = new PDO ("sqlsrv:Server-$host,$puerto;Database-$dbname",$username, $password);
-    echo "Se conectó correctamen a la base de datos";
+    // Establecer conexión
+    $conn = sqlsrv_connect($serverName, $connectionOptions);
+    if ($conn === false) {
+    die(print_r(sqlsrv_errors(), true));
     }
-    catch(PDOException $exp){
-    echo ("No se logró conectar correctamente con la base de datos: $dbname, error: $exp");
-    }
-    return $conn;
-    }
-
     ?>
+
 
 
 =======================
