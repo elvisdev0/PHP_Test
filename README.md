@@ -44,8 +44,7 @@ extension=php_pdo_sqlsrv_82_ts_x64.dll
 
 ![image](https://github.com/elvisdev0/PHP_Test/assets/57382598/e695536f-b9aa-4ac8-a76e-09405ca14358)
 
-https://chatgpt.com/share/031ccab2-36f3-477a-9fd1-2b2e8ebd9bd7
-
+https://chatgpt.com/share/1e3b74ad-e685-4804-b5fd-b094bc36dea8
 
 https://www.youtube.com/watch?v=K8MJtUmo8nk
 
